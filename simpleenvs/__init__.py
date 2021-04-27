@@ -6,4 +6,10 @@ register(
 		max_episode_steps=50,
 		)
 
+register(
+		id = 'pointmass-v0',
+		entry_point='simpleenvs.pointmass:PointmassEnv',
+		max_episode_steps=50,
+		)
+
 
